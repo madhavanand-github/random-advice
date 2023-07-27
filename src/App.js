@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <>
-      <img src="quote.svg" alt="quote" />
+      <img src="quote.png" alt="quote" />
       <h2> {advice} </h2>
       <button onClick={() => getAdvice()}>Random Advice</button>
     </>
